@@ -1,0 +1,30 @@
+html, body {
+  height: 100%;
+
+}
+
+html, body {
+  font-family: sans-serif;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(180deg, blue -40%, black 100%);
+}
+
+button {
+  color: green;
+  padding: 0 45px;
+  border: 5px solid #fff;
+  border-radius: 30px;
+  height: 70px;
+  font-size: 2rem;
+  font-weight: 800;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+button:hover {
+  background-color: darkblue;
+  color: #fff;
+}
